@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algota Company - Brochure</title>
+    <link rel="stylesheet" href="../../ar/css/normalize.css" />
+    <link rel="stylesheet" href="../../ar/css/all.min.css" />
+    <link rel="stylesheet" href="../../ar/css/mastar.css" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Brochure.css" />
+    <!-- Main Logo -->
+    <link rel="icon" href="../image/logo.png" />
+  </head>
+  <body dir="ltr">
+    <div id="preloader">
+      <div class="p"><img src="../image/logo.png" alt="" /></div>
+    </div>
+    <img
+      src="../../ar/image/icons8-scroll-up-64.png"
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      alt=""
+    />
+    <!-- Start Header -->
+    <header id="header">
+      <div class="container">
+        <div class="logo-img">
+          <a href="../index.html" class="logo">
+            <img decoding="async" src="../image/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <nav>
+          <div class="dropdown">
+            <i
+              class="fas fa-bars toggle-menu dropbtn"
+              onclick="myFunction()"
+            ></i>
+            <ul id="myDropdown" class="dropdown-content">
+              <li><a class="active" href="../index.html">Homepage</a></li>
+              <li><a href="../index.html#about">About Us</a></li>
+              <li><a href="../index.html#product">Products</a></li>
+              <li><a href="../index.html#places">Our Places</a></li>
+              <li><a href="../index.html#news">News</a></li>
+              <li><a href="../index.html#our-news">Our News</a></li>
+              <li><a href="../index.html#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="container-search">
+            <div class="search" id="search-bar">
+              <input
+                type="search"
+                placeholder="Search here..."
+                autocomplete="false"
+                name="h"
+                class="search__input dropbtn-1"
+                id="myInput"
+                onclick="mySearch()"
+                onkeyup="myFilter()"
+              />
+              <div class="search__button" id="search-button">
+                <i class="ri-search-2-line search__icon"></i>
+                <i class="ri-close-line search__close"></i>
+              </div>
+            </div>
+            <ul id="myDropdown-1" class="dropdown-content-1 myUL">
+              <li class="li"><a class="active" href="#">Home</a></li>
+              <li class="li">
+                <a href="../About/about.html">About Us</a>
+              </li>
+              <li class="li"><a href="#product">Products</a></li>
+              <li class="li">
+                <a href="#places" id="ul-search">Our Places</a>
+              </li>
+              <li class="li"><a href="#news">News</a></li>
+              <li class="li"><a href="#our-news">Our News</a></li>
+              <li class="li"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <a class="language-a" href="../../ar/Brochure/Brochure.html">AR</a>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <div class="Brochure">
+      <img src="صورة طولية.jpg" alt="" />
+    </div>
+    <div class="footer">
+      <span> &copy; 2023</span> All rights reserved to
+      <span> Algota Food Company </span>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="../js/pace.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="../js/brochure.js"></script>
+</html>

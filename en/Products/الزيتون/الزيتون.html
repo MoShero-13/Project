@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - Olive</title>
+    <link rel="stylesheet" href="../../../ar/css/normalize.css" />
+    <link rel="stylesheet" href="../../../ar/css/all.min.css" />
+    <link rel="stylesheet" href="../../../ar/css/swiper-bundle.min.css" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../products.css" />
+    <!-- Main Logo -->
+    <link rel="icon" href="../../image/logo.png" />
+    <style>
+      body {
+        font-family: var(--main-font);
+        scroll-behavior: smooth;
+        scrollbar-color: var(--main-color);
+        background-image: url(../تلة.png);
+        background-size: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="p"><img src="../../image/logo.png" alt="" /></div>
+    </div>
+    <img
+      src="../icons8-scroll-up-64.png"
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      alt=""
+    />
+    <!-- Start Header -->
+    <header id="header">
+      <div class="container">
+        <div class="logo-img">
+          <a href="../../index.html" class="logo">
+            <img decoding="async" src="../../image/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <nav>
+          <div class="dropdown">
+            <i
+              class="fas fa-bars toggle-menu dropbtn"
+              onclick="myFunction()"
+            ></i>
+            <ul id="myDropdown" class="dropdown-content">
+              <li><a class="active" href="../../index.html">Home</a></li>
+              <li></li>
+              <li><a href="../../index.html#about">About Us</a></li>
+              <li><a href="../../index.html#product">Products</a></li>
+              <li><a href="../../index.html#places">Our Places</a></li>
+              <li><a href="../../index.html#news">News</a></li>
+              <li><a href="../../index.html#our-news">Our News</a></li>
+              <li><a href="../../index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="container-search">
+            <div class="search" id="search-bar">
+              <input
+                type="search"
+                placeholder="Search here..."
+                autocomplete="false"
+                name="h"
+                class="search__input dropbtn-1"
+                id="myInput"
+                onclick="mySearch()"
+                onkeyup="myFilter()"
+              />
+              <div class="search__button" id="search-button">
+                <i class="ri-search-2-line search__icon"></i>
+                <i class="ri-close-line search__close"></i>
+              </div>
+            </div>
+            <ul id="myDropdown-1" class="dropdown-content-1 myUL">
+              <li class="li"><a class="active" href="#">Home</a></li>
+              <li class="li">
+                <a href="../../About/about.html">About Us</a>
+              </li>
+              <li class="li"><a href="#product">Products</a></li>
+              <li class="li">
+                <a href="#places" id="ul-search">Our Places</a>
+              </li>
+              <li class="li"><a href="#news">News</a></li>
+              <li class="li"><a href="#our-news">Our News</a></li>
+              <li class="li"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <a class="language-a" href="../../../ar/Products/الزيتون/الزيتون.html"
+            >AR</a
+          >
+          <div class="box">
+            <div class="cart-count">0</div>
+            <ion-icon name="cart" id="cart-icon"></ion-icon>
+          </div>
+          <div class="cart">
+            <div class="cart-title">Cart Item</div>
+            <div class="cart-content"></div>
+
+            <div class="total">
+              <div class="total-title"></div>
+              <div class="total-price"></div>
+            </div>
+
+            <ion-icon name="close" id="cart-close"></ion-icon>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Section -->
+    <section class="sec-01" dir="ltr">
+      <div class="container">
+        <div class="content">
+          <div class="text-box">
+            <h1>Olive</h1>
+            <p>
+              - Spices and herbs constitute one of the basic methods used in
+              daily life to give flavor to foods and drinks. Spices are
+              generally defined as all aromatic vegetable products that are used
+              to flavor food and drink. The desire to obtain aromatic plants is
+              an incentive to discover new lands and short routes for
+              navigation, but they It prompted greedy colonialists to occupy the
+              countries that produced it.
+            </p>
+          </div>
+          <div class="image">
+            <img src="../../../ar/Products/الزيتون/زيتون.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+
+    <!-- Start Our News -->
+    <div class="news" id="our-news">
+      <div class="news-container">
+        <div class="slide-container swiper slide2">
+          <h2 class="h2-1">Two machine-gun-headed singers (pear)</h2>
+          <div class="slide-content1" dir="ltr">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="../../../ar/Products/بهارات/سبع بهارات.png"
+                      alt=""
+                      class="card-img food-img"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="food-title">Seven spices</h2>
+                  <h5 class="name food-price" dir="rtl">
+                    Weight of the piece : <span> 250g </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Number of pieces in the package : <span> 24 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package weight : <span> 7.50kg </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package size : <span> 0.0251m3 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Parcel barcode : <span> 2657761615 </span>
+                  </h5>
+                  <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="../../../ar/Products/بهارات/سبع بهارات.png"
+                      alt=""
+                      class="card-img food-img"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="food-title">Seven spices</h2>
+                  <h5 class="name food-price" dir="rtl">
+                    Weight of the piece : <span> 250g </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Number of pieces in the package : <span> 24 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package weight : <span> 7.50kg </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package size : <span> 0.0251m3 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Parcel barcode : <span> 2657761615 </span>
+                  </h5>
+                  <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="../../../ar/Products/بهارات/سبع بهارات.png"
+                      alt=""
+                      class="card-img food-img"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="food-title">Seven spices</h2>
+                  <h5 class="name food-price" dir="rtl">
+                    Weight of the piece : <span> 250g </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Number of pieces in the package : <span> 24 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package weight : <span> 7.50kg </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package size : <span> 0.0251m3 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Parcel barcode : <span> 2657761615 </span>
+                  </h5>
+                  <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="../../../ar/Products/بهارات/سبع بهارات.png"
+                      alt=""
+                      class="card-img food-img"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="food-title">Seven spices</h2>
+                  <h5 class="name food-price" dir="rtl">
+                    Weight of the piece : <span> 250g </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Number of pieces in the package : <span> 24 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package weight : <span> 7.50kg </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package size : <span> 0.0251m3 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Parcel barcode : <span> 2657761615 </span>
+                  </h5>
+                  <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="../../../ar/Products/بهارات/سبع بهارات.png"
+                      alt=""
+                      class="card-img food-img"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="food-title">Seven spices</h2>
+                  <h5 class="name food-price" dir="rtl">
+                    Weight of the piece : <span> 250g </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Number of pieces in the package : <span> 24 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package weight : <span> 7.50kg </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package size : <span> 0.0251m3 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Parcel barcode : <span> 2657761615 </span>
+                  </h5>
+                  <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="../../../ar/Products/بهارات/سبع بهارات.png"
+                      alt=""
+                      class="card-img food-img"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="food-title">Seven spices</h2>
+                  <h5 class="name food-price" dir="rtl">
+                    Weight of the piece : <span> 250g </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Number of pieces in the package : <span> 24 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package weight : <span> 7.50kg </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Package size : <span> 0.0251m3 </span>
+                  </h5>
+                  <h5 class="name" dir="rtl">
+                    Parcel barcode : <span> 2657761615 </span>
+                  </h5>
+                  <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next1 swiper-navBtn">
+            <img src="../../../ar/image/icons8-next-page-64 (2).png" alt="" />
+          </div>
+          <div class="swiper-button-prev1 swiper-navBtn">
+            <img src="../../../ar/image/icons8-next-page-64 (3).png" alt="" />
+          </div>
+          <div class="swiper-pagination1" dir="ltr"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our News -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <span> &copy; 2023</span> All rights reserved to
+      <span> Algota Food Company </span>
+    </div>
+    <!-- End Footer -->
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="../../js/pace.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="../../js/product.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script src="../cart.js"></script>
+  <!-- Swiper JS -->
+  <script src="../../js/swiper-bundle.min.js"></script>
+  <script src="../../js/script.js"></script>
+</html>
