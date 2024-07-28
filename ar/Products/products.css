@@ -1239,7 +1239,7 @@ h2.title {
 .cart {
   position: fixed;
   top: 0;
-  left: -100%;
+  left: -120%;
   width: 400px;
   height: 100vh;
   overflow-y: auto;
