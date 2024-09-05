@@ -1,0 +1,43 @@
+body {
+  font-family: var(--main-font);
+  scroll-behavior: smooth;
+  scrollbar-color: var(--main-color);
+  background-color: #193f2b;
+  background-image: url(../Products/تلة.png);
+  background-size: 100%;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px var(--main-color);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 2px;
+}
+.Brochure {
+  width: 88%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.Brochure img {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+@media (max-width: 1024px) {
+  .Brochure img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 600px) {
+  .Brochure img {
+    width: 100%;
+    margin: 0;
+  }
+}
